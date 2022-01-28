@@ -1,0 +1,70 @@
+.LocationPage-main {
+    margin: 20px;
+}
+
+.LocationPage-title {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 142.6%;
+    /* or 26px */
+
+    display: flex;
+    align-items: flex-end;
+
+    color: #FF6060;
+}
+
+.LocationPage-location {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 142.6%;
+    /* or 20px */
+
+    display: flex;
+    align-items: flex-end;
+
+    color: #FF6060;
+
+}
+
+.LocationPage-host {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+@media only screen and (min-width: 1024px) {
+    .LocationPage-main {
+        margin: 100px;
+        margin-top: 0px;
+    }
+
+    .LocationPage-header {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .LocationPage-title {
+        font-size: 36px;
+        line-height: 142.6%;
+    }
+    .LocationPage-location {
+        font-size: 18px;
+        line-height: 142.6%;
+    }
+
+    .LocationPage-host {
+        flex-direction: column;
+        justify-content: initial;
+    }
+    .LocationPage-dropdown {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 76px;
+    }
+}

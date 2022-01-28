@@ -1,0 +1,21 @@
+.stars-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.stars-content img {
+    width: 15px;
+    height: 15px;
+}
+
+@media only screen and (min-width: 1024px) {
+
+    .stars-content {
+        margin-top: 24px;
+    }
+    .stars-content img {
+        width: 30px;
+        height: 30px;
+    }
+}

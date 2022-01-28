@@ -1,0 +1,39 @@
+.errorfound {
+    margin-top: 195px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.errorfound h1 {
+    color: #FF6060;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 6rem;
+    line-height: 142.6%;
+    margin: 0;
+}
+
+.errorfound p {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.125rem;
+    line-height: 142.6%;
+    color: #FF6060;
+    margin: 0;
+}
+
+.errorfound .backhome {
+    margin-top: 133px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 142.6%;
+    /* identical to box height, or 20px */
+    text-decoration-line: underline;
+
+    color: #FF6060;
+}

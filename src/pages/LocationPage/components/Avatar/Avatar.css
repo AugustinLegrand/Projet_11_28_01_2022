@@ -1,0 +1,26 @@
+.avatar {
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+.avatar img {
+    height: 64px;
+    width: 64px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.avatar p {
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    color: #FF6060;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 142.6%;
+    /* or 26px */
+    text-align: right;
+}

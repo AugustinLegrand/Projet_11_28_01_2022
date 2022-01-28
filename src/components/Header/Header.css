@@ -1,0 +1,41 @@
+.header {
+    margin: 20px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header .navbar {
+    display: flex;
+    align-items: center;
+
+}
+
+.header .navbar a {
+    text-decoration: none;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 142.6%;
+    color: #FF6060;
+    text-transform: uppercase;
+}
+
+.header .navbar a:last-child {
+    margin-left: 10px;
+}
+
+@media only screen and (min-width: 1024px) {
+    .header {
+        margin-top: 40px;
+        margin-left: 100px;
+        margin-right: 100px;
+        margin-bottom: 20px;
+    }
+
+    .header .navbar a {
+        font-size: 24px;
+        line-height: 142.6%;
+    }
+}

@@ -1,0 +1,91 @@
+.locationCard {
+    position: relative;
+    margin-top: 20px;
+    height: 255px;
+    width: 335px;
+    left: 0px;
+    top: 0px;
+    border-radius: 10px;
+
+}
+
+.locationCard img {
+    object-fit: cover;
+    height: 255px;
+    width: 335px;
+    left: 0px;
+    top: 0px;
+    border-radius: 10px;
+
+}
+
+.locationCard a {
+    position: absolute;
+    left: 5.88%;
+    right: 5.88%;
+    top: 75.73%;
+    bottom: 4.88%;
+    text-decoration: none;
+    font-family: Montserrat;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+
+    color: #FFFFFF;
+
+}
+
+.locationCard:first-child {
+    margin-top: 0;
+}
+
+@media only screen and (min-width: 720px) {
+
+    .locationCard {
+        width: 340px;
+        height: 340px;
+    }
+
+    .locationCard img {
+        width: 340px;
+        height: 340px;
+    }
+
+    .locationCard:first-child {
+        margin-top: 20px;
+    }
+
+    .locationCard:hover {
+        transition: 0.2s;
+        cursor: pointer;
+        opacity: 85%;
+        transform: scale(1.01, 1.01);
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+
+    .locationCard {
+        width: 340px;
+        height: 340px;
+    }
+
+    .locationCard img {
+        width: 340px;
+        height: 340px;
+    }
+
+    .locationCard:first-child {
+        margin-top: 20px;
+    }
+
+    .locationCard:hover {
+        transition: 0.2s;
+        cursor: pointer;
+        opacity: 85%;
+        transform: scale(1.01, 1.01);
+    }
+}
